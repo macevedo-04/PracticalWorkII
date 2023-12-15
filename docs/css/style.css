@@ -1,0 +1,49 @@
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  font-size: 1.125rem;
+  color: black;
+}
+
+h1 {
+  font-family: "Acme";
+  font-size: 6rem;
+  text-align: center;
+  color: #3F57FF;
+}
+
+h2 {
+  font-family: "Acme";
+  font-size: 3rem;
+  text-align: center;
+  color: #3F57FF;
+}
+
+h4 {
+  font-family: "Acme";
+  font-size: 2rem;
+  text-align: center;
+  color: white;  
+}
+
+.subheading {
+  font-family: "Alata";
+  font-size: 3rem;
+  text-align: center;
+  color: #3F57FF;
+}
+
+.item {
+  font-family: "Alata";
+  font-size: 1.5rem;
+  text-align: left;
+  color: white;
+}
+
+footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 1.125rem;
+  color: white;
+}
+
