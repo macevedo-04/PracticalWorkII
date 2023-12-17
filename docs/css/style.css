@@ -147,19 +147,15 @@ article {
   align-self: center;
   position: relative;
   z-index: 0;
+  background-color: #f5f7fa;
 }
 
-.image-about-me {
-  border-radius: 50%;
-  display: flex;
-  width: 400px;
-  height: 400px;
-  float: right;
-  vertical-align: middle;
+.s1-content {
+  background-color: #f5f7fa;
 }
 
 .text {
-  background-color: #d3e3fe;
+  background-color: #f5f7fa;
   font-family: "Alata";
 }
 
@@ -308,12 +304,12 @@ div.subject-container {
 
 .button {
   font-family: "Acme";
-  width: 180px;
-  height: 70px;
+  width: 150px;
+  height: 50px;
   display: flex;
   position: relative;
   z-index: 1000;
-  align-self: flex-start;
+  align-self: center;
   text-transform: uppercase;
   font-size: 25px;
   vertical-align: middle;
@@ -323,7 +319,7 @@ div.subject-container {
   color: #fff;
   border: 4px solid #f75f7a;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-  left: 20%;
+  left: 35%;
 }
 
 .classmate .peers {
@@ -460,7 +456,7 @@ nav li {
 
 .slider {
   min-width: 700px;
-  width: 700px;
+  width: 900px;
   height: 500px;
   border-radius: 12px;
   padding: 20px;
@@ -503,8 +499,9 @@ nav li {
 
 .classmate {
   font-family: "Acme";
-  position: absolute;
+  position: relative;
   text-align: center;
+  align-content: center;
   background-color: #cfe2ff;
   top: 40%;
   left: 35%;
@@ -526,7 +523,8 @@ input {
   align-self: center;
   text-align: center;
   align-items: center;
-  left: 20%;
+  left: 5%;
+  right: 10%;
   opacity: 0;
   z-index: -10;
 }
@@ -708,6 +706,15 @@ input:not(:checked)+label+.names {
 .application {
   text-align: justify;
   margin-right: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+}
+
+.what-is img,
+.application img {
+  width: 700px;
+  height: 400px;
 }
 
 .info {
@@ -724,4 +731,22 @@ input:not(:checked)+label+.names {
   align-self: center;
   display: block;
   background: #f5f7fa;
+}
+
+.img-fce {
+  width: fit-content;
+  height: fit-content;
+}
+
+.fund-content {
+  align-items: center;
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: auto auto;
+}
+
+.what-is .box a,
+.application .box a {
+  background-color: #f5f7fa;
+  font-weight: 600;
 }
