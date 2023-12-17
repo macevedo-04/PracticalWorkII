@@ -486,9 +486,9 @@ nav li {
 #slide-3,
 #slide-4,
 #slide-5 {
-  position: fixed;
-  width: 300px;
-  height: 200px;
+  position: absolute;
+  width: 200px;
+  height: 100px;
   transform-origin: left 50%;
   left: 50%;
   z-index: 10;
