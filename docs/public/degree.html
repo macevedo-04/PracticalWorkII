@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practical Work II</title>
-    <link rel="stylesheet" href="/docs/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/c54f32a957.js" crossorigin="anonymous"></script>
     <link id="title-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme|Alata">
     <link id="normal-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=OpenSans|Georgia">
@@ -15,13 +15,13 @@
 <body>
 
     <header>
-        <img id="logo" src="images/LogoUFV.jpg" alt="Logo">
+        <img id="logo" src="../images/LogoUFV.jpg" alt="Logo">
     </header>
 
     <div class="area">
         <nav class="main-menu">
             <ul>
-                <h4>MENU</h4>
+                <h4><a class="homepage" href="../index.html">MENU</a></h4>
                 <li><a href="degree.html">
                         <i class="fa-solid fa-graduation-cap"></i>
                         <span class="item">My Degree</span>
@@ -50,6 +50,186 @@
             </ul>
         </nav>
     </div>
+
+    <article class="cedegree">
+        <h3 class="text">Degree in<br>Computer Engineering<br>at the UFV</h3>
+        <div id="tabs">
+            <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
+            <label for="tab-1" class="tab-label-1">1st Year</label>
+
+            <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+            <label for="tab-2" class="tab-label-2">2nd Year</label>
+
+            <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
+            <label for="tab-3" class="tab-label-3">3rd Year</label>
+
+            <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
+            <label for="tab-4" class="tab-label-4">4th Year</label>
+            <div class="content">
+                <p class="subjects">Subjects</p>
+                <div class="tab-content" id="year1">
+                    <table>
+                        <tr>
+                            <th>1st Term</th>
+                            <th>2nd Term</th>
+                        </tr>
+                        <tr>
+                            <td>Discrete Mathematics</td>
+                            <td>Electronics and Computer Technology</td>
+                        </tr>
+                        <tr>
+                            <td>Introduction to Programming</td>
+                            <td>The Company and its Processes</td>
+                        </tr>
+                        <tr>
+                            <td>Mathematics for Engineering I</td>
+                            <td>Mathematics for Engineering II</td>
+                        </tr>
+                        <tr>
+                            <td>Logic and critical Thinking</td>
+                            <td>Object Oriented Programming</td>
+                        </tr>
+                        <tr>
+                            <td id="FCE"><a class="link-fce" href="./FCE.html">Fundamentals of Computer Engineering</a></td>
+                            <td>History of Science and Technology</td>
+                        </tr>
+                        <tr>
+                            <td>Management of Knowledge and Skills of the Person</td>
+                            <td>Management of Knowledge and Skills of the Person</td>
+                        </tr>
+                        <tr>
+                            <td class="diploma">Operative Systems Administration I</td>
+                            <td class="diploma">Operative Sistems Administration II</td>
+                        </tr>
+                        <tr>
+                            <td class="diploma">Introduction to Cybersecurity</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="tab-content" id="year2">
+                    <table>
+                        <tr>
+                            <th>1st Term</th>
+                            <th>2nd Term</th>
+                        </tr>
+                        <tr>
+                            <td>Data Structures adnd Algorithms</td>
+                            <td>Projects I</td>
+                        </tr>
+                        <tr>
+                            <td>Computer Architecture and Organisation</td>
+                            <td>Statistics</td>
+                        </tr>
+                        <tr>
+                            <td>Information Systems Design and Analises</td>
+                            <td>Databases</td>
+                        </tr>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>Operative Systems</td>
+                        </tr>
+                        <tr>
+                            <td>Anthropology and Social Responsibility</td>
+                            <td>Anthropology and Social Responsibility</td>
+                        </tr>
+                        <tr>
+                            <td class="diploma">Computer Forensics</td>
+                            <td>Software Engineering</td>
+                        </tr>
+                        <tr>
+                            <td class="diploma">Ethic Hacking and Pentesting I</td>
+                            <td class="diploma">Ethic Hacking and Pentesting II</td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td class="diploma">Secure S-SDLC Development-OWASP</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="tab-content" id="year3">
+                    <table>
+                        <tr>
+                            <th>1st Term</th>
+                            <th>2nd Term</th>
+                        </tr>
+                        <tr>
+                            <td>Artificial Itelligence I</td>
+                            <td>System Administration</td>
+                        </tr>
+                        <tr>
+                            <td>Software Engineering II</td>
+                            <td>Advanced Databases</td>
+                        </tr>
+                        <tr>
+                            <td>Software Development and Integration</td>
+                            <td>Networks and Distributed Systems</td>
+                        </tr>
+                        <tr>
+                            <td>Person Computer Interaction</td>
+                            <td>Projects II</td>
+                        </tr>
+                        <tr>
+                            <td>Computational Complexity</td>
+                            <td>Statistical Learning and Data Mining</td>
+                        </tr>
+                        <tr>
+                            <td>Ethics and Proffessional Deontology</td>
+                            <td>Ethics and Proffessional Deontology</td>
+                        </tr>
+                        <tr>
+                            <td class="diploma">Security in Mobile and Web Applications</td>
+                            <td class="diploma">Security in the Internet of Things</td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td class="diploma">Blockchain Technology</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="tab-content" id="year4">
+                    <table>
+                        <tr>
+                            <th>1st Term</th>
+                            <th>2nd Term</th>
+                        </tr>
+                        <tr>
+                            <td>Quality Management</td>
+                            <td>Knowledge Engineering</td>
+                        </tr>
+                        <tr>
+                            <td>High Performance Computing</td>
+                            <td>End of Grade Project</td>
+                        </tr>
+                        <tr>
+                            <td>Optionality I</td>
+                            <td>Optionality II</td>
+                        </tr>
+                        <tr>
+                            <td>Planning and Management of Computer Projects</td>
+                            <td>Planning and Management of Computer Projects</td>
+                        </tr>
+                        <tr>
+                            <td>Security</td>
+                            <td class="diploma">Preparation for Certification II</td>
+                        </tr>
+                        <tr>
+                            <td>The Question of God in the Digital Era</td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td class="diploma">Preparation for Certification I</td>
+                            <td> </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <p class="diploma">Subjects in bold correspond to the<br>Cibersecurity And Ethical Hacking Diploma</p>
+        </div>
+    </article>
 
     <footer>
         Practical Work II
